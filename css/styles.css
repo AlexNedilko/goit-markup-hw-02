@@ -58,7 +58,7 @@ body {
   color: var(--link-selection-solor);
 }
 
-/* ------------- HEADER ----------------- */
+/* ------------- HERO ----------------- */
 .section-hero {
   background-color: var(--footer-bgd-color);
 }
@@ -112,7 +112,7 @@ body {
 }
 
 /* ------------- TEAM ----------------- */
-.team {
+.team-section {
   background-color: #f5f4fa;
 }
 .team-name {
@@ -136,20 +136,65 @@ body {
 .footer {
   background-color: var(--footer-bgd-color);
 }
-.footer-map-link {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  color: var(--title-color);
-}
-.footer-contact-link {
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  color: var(--text-color);
-}
-.footer-link-select:hover,
-.footer-link-select:focus {
+.footer-logo-web {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  /* identical to box height */
+  letter-spacing: 0.03em;
   color: var(--link-selection-solor);
 }
+.footer-logo-studio {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  /* identical to box height */
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.footer-map-link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.footer-contact-link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+/* .footer-link-select:hover,
+.footer-link-select:focus {
+  color: var(--link-selection-solor);
+} */
+
+/* ------------- page 2 - PORTFOLIO ----------------- */
+
+.filters-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.filters-btn:hover,
+.filters-btn:focus {
+  color: #ffffff;
+}
+
+/* .filters-item:hover,
+.filters-item:focus {
+  color: var(--link-selection-solor);
+} */
