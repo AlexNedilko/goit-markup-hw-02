@@ -18,6 +18,19 @@ body {
   text-decoration: none;
 }
 
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
 /* ------------- HEADER ----------------- */
 .logo-web {
   font-family: "Raleway";
@@ -59,12 +72,7 @@ body {
 }
 
 /* ------------- HERO ----------------- */
-.section-hero {
-  position: absolute;
-  width: 1600px;
-  height: 600px;
-  left: 0px;
-  top: 80px;
+.section-hero-block {
   background-color: var(--footer-bgd-color);
 }
 .hero-title {
@@ -87,7 +95,7 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   color: #ffffff;
-  position: absolute;
+  /* position: absolute; */
   width: 200px;
   height: 50px;
   left: 700px;
